@@ -24,7 +24,7 @@ export default class App extends Component {
     return (
       <div>
         <header>
-          <h1> Choose Your Creature</h1>
+          <h1> Creature Gallery</h1>
           <p> Creatures can be filtered using the dropdown menu below</p>
         </header>
         <p> {this.state.keyword} </p>
