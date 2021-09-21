@@ -28,7 +28,7 @@ export default class App extends Component {
           <p> Creatures can be filtered using the dropdown menu below</p>
         </header>
         <p> {this.state.keyword} </p>
-        <select onChange={this.filterCreature}>
+        <select onChange={this.filterCreature} className="input">
           <option value=''> All </option>
           <option value="narwhal"> Narwhal </option>
           <option value="rhino"> Rhino </option>
