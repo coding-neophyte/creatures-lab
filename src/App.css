@@ -53,15 +53,22 @@ p{
    height:400px;
    width: 400px;
    border: 5px solid black;
+   border-radius: 5px;
 
  }
 
  ul {
    list-style-type: none;
+
  }
 
  ul li {
    display: inline;
    margin-left: 25px;
    margin-top: 20px;
+ }
+
+ .images{
+   display: flex;
+  flex-wrap: wrap;
  }
